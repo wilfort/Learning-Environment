@@ -1,58 +1,77 @@
 html {
-box-sizing: border-box;
+      box-sizing: border-box;
 }
 *, *:before, *:after {
-box-sizing: inherit;
-padding: 0; margin: 0;
+      box-sizing: inherit;
+      padding: 0; margin: 0;
 }
 html, body{
-  display: block;
-   height: 100%;width: 100%;
-  overflow: hidden;
+    display: block;
+    height: 100%;width: 100%;
+    overflow: hidden;
 }
 ul,li, a{
-margin: 0; padding: 0;
-list-style: none;
-text-decoration: none;
+    margin: 0; padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* The navigation bar */
 .main, .main-header, .main-container, .main-footer{
-  display: block;
-  width: 100%;
+      display: block;
+      width: 100%;
 
 }
 .main{
- height: 100%;
- background-color: #FFDC00;
+  position:absolute;
+     height: 100%;
+     background-color: #FFDC00;
+     overflow: auto;
+     top :0px;
+     right: 0px;
+     left: 0px;
 }
 
 .main-header{
- height: 100px;
-background-color: #333;
+  position:absolute;
+     height: 100px;
+     background-color: #333;
+     top :0px;
+     right: 0px;
+     left: 0px;
 }
 .main-container{
+  position:absolute;
      /* Add a top margin to avoid content overlay */
      height: auto;
-
      color: #E87400;
      background-color: #9001E8;
+     top :100px;
+     right: 0px;
+     left: 0px;
+     bottom: 100px;
+     overflow: auto;
 }
 .main-footer{
+  position:absolute;
     height: 100px;
     text-align: center;
     background-color: #333;
     color: #f2f2f2;
-padding-top: 40px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding-top: 40px;
 }
 .generale{
-  margin: : 10em,0em,5em,10em;
+    padding: 40px 0px 20px 20px;
 }
 nav {
 /* Set the navbar to fixed position */
- height: 100px;
-text-align: center;
-padding-top: 40px;
+    height: 100px;
+    text-align: center;
+    padding: 30px 40px;
+    font-size: 40px;
 }
 
 nav a {
@@ -72,13 +91,11 @@ img{
 
 }
 #image{  position: absolute;
-  margin-top:20px;
-  margin-left: 10px;
-  width:50px;
-  height:50px;}
-  #image2{
-    width:100px;
-    height:100px;}
+        margin-top:20px;
+        margin-left: 10px;
+        width:50px;
+        height:50px;
+      }
 /* Main content */
 ul, ul li {
     list-style-type: disc;
