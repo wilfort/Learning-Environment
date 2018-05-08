@@ -25,15 +25,14 @@ ul,li, a{
 .main{
   position:absolute;
      height: 100%;
-     background-color: #FFDC00;
-     overflow: auto;
+
      top :0px;
      right: 0px;
      left: 0px;
+     overflow: auto;
 }
 
 .main-header{
-  position:absolute;
      height: 100px;
      background-color: #333;
      top :0px;
@@ -41,19 +40,15 @@ ul,li, a{
      left: 0px;
 }
 .main-container{
-  position:absolute;
      /* Add a top margin to avoid content overlay */
      height: auto;
-     color: #E87400;
-     background-color: #9001E8;
      top :100px;
      right: 0px;
      left: 0px;
      bottom: 100px;
-     overflow: auto;
+
 }
 .main-footer{
-  position:absolute;
     height: 100px;
     text-align: center;
     background-color: #333;
@@ -63,9 +58,7 @@ ul,li, a{
     left: 0px;
     padding-top: 40px;
 }
-.generale{
-    padding: 40px 0px 20px 20px;
-}
+
 nav {
 /* Set the navbar to fixed position */
     height: 100px;
@@ -90,11 +83,45 @@ nav a:hover {
 img{
 
 }
+#index{
+color: #E8AB0C;
+background-color: #0DFFA8;
+padding-top: 120px;
+padding-left: 40px;
+padding-bottom: 100px;
+}
+#lien1{
+  color: #E8AB0C;
+  background-color: #0DFFA8;
+}
+#contact{
+color: #9001E8;
+background-color: #E36EE8;
+padding-top: 50px;
+padding-left: 50px;
+padding-bottom: 80px;
+}
+#lien2{
+  color: #9001E8;
+  background-color: #E36EE8;
+}
+#cv{
+color: #FFA566;
+background-color: #5FB25A;
+padding-top: 50px;
+padding-left: 40px;
+padding-bottom: 20px;
+}
+#lien3{
+  color: #E8AB0C;
+  background-color: #0DFFA8;
+}
 #image{  position: absolute;
         margin-top:20px;
         margin-left: 10px;
         width:50px;
         height:50px;
+
       }
 /* Main content */
 ul, ul li {
@@ -102,13 +129,10 @@ ul, ul li {
     margin: : 5em;
     padding-left: 40px;
 }
-
-a {
-    color: #E87400;
-    background: #9001E8;
+#tableau1{
+  width: 100%;
 }
-
-a:hover {
-    color: #E87400;
-    background: #9001E8;
+td{
+  width: 50%;
+  font-size: 20px;
 }
