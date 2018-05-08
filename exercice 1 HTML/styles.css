@@ -1,0 +1,97 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+padding: 0; margin: 0;
+}
+html, body{
+  display: block;
+   height: 100%;width: 100%;
+  overflow: hidden;
+}
+ul,li, a{
+margin: 0; padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+/* The navigation bar */
+.main, .main-header, .main-container, .main-footer{
+  display: block;
+  width: 100%;
+
+}
+.main{
+ height: 100%;
+ background-color: #FFDC00;
+}
+
+.main-header{
+ height: 100px;
+background-color: #333;
+}
+.main-container{
+     /* Add a top margin to avoid content overlay */
+     height: auto;
+
+     color: #E87400;
+     background-color: #9001E8;
+}
+.main-footer{
+    height: 100px;
+    text-align: center;
+    background-color: #333;
+    color: #f2f2f2;
+padding-top: 40px;
+}
+.generale{
+  margin: : 10em,0em,5em,10em;
+}
+nav {
+/* Set the navbar to fixed position */
+ height: 100px;
+text-align: center;
+padding-top: 40px;
+}
+
+nav a {
+
+    color: #f2f2f2;
+
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+img{
+
+}
+#image{  position: absolute;
+  margin-top:20px;
+  margin-left: 10px;
+  width:50px;
+  height:50px;}
+  #image2{
+    width:100px;
+    height:100px;}
+/* Main content */
+ul, ul li {
+    list-style-type: disc;
+    margin: : 5em;
+    padding-left: 40px;
+}
+
+a {
+    color: #E87400;
+    background: #9001E8;
+}
+
+a:hover {
+    color: #E87400;
+    background: #9001E8;
+}
