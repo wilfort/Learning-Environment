@@ -1,138 +1,216 @@
-html {
-      box-sizing: border-box;
-}
-*, *:before, *:after {
-      box-sizing: inherit;
-      padding: 0; margin: 0;
-}
-html, body{
-    display: block;
-    height: 100%;width: 100%;
-    overflow: hidden;
-}
-ul,li, a{
-    margin: 0; padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
+html
+    {
+          box-sizing: border-box;
+    }
 
-/* The navigation bar */
-.main, .main-header, .main-container, .main-footer{
-      display: block;
-      width: 100%;
 
-}
-.main{
-  position:absolute;
-     height: 100%;
+*, *:before, *:after
+    {
+          box-sizing: inherit;
+          padding: 0; margin: 0;
+    }
 
-     top :0px;
-     right: 0px;
-     left: 0px;
-     overflow: auto;
-}
 
-.main-header{
-     height: 100px;
-     background-color: #333;
-     top :0px;
-     right: 0px;
-     left: 0px;
-}
-.main-container{
-     /* Add a top margin to avoid content overlay */
-     height: auto;
-     top :100px;
-     right: 0px;
-     left: 0px;
-     bottom: 100px;
+html, body
+    {
+          display: block;
+          height: 100%;width: 100%;
+          overflow: hidden;
+    }
 
-}
-.main-footer{
-    height: 100px;
-    text-align: center;
-    background-color: #333;
-    color: #f2f2f2;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    padding-top: 40px;
-}
 
-nav {
-/* Set the navbar to fixed position */
-    height: 100px;
-    text-align: center;
-    padding: 30px 40px;
-    font-size: 40px;
-}
+ul,li, a
+    {
+          margin: 0; padding: 0;
+          list-style: none;
+          text-decoration: none;
+    }
 
-nav a {
 
-    color: #f2f2f2;
+.main, .main-header, .main-container, .main-footer
+    {
+          display: block;
+          width: 100%;
+    }
 
-    padding: 10px 10px;
-    text-decoration: none;
-}
 
-nav a:hover {
-    background: #ddd;
-    color: black;
-}
+.main
+    {
+          position:absolute;
+          height: 100%;
+          top :0px;
+          left: 0px;
 
-img{
+    }
 
-}
-#index{
-color: #E8AB0C;
-background-color: #0DFFA8;
-padding-top: 120px;
-padding-left: 40px;
-padding-bottom: 100px;
-}
-#lien1{
-  color: #E8AB0C;
-  background-color: #0DFFA8;
-}
-#contact{
-color: #9001E8;
-background-color: #E36EE8;
-padding-top: 50px;
-padding-left: 50px;
-padding-bottom: 80px;
-}
-#lien2{
-  color: #9001E8;
-  background-color: #E36EE8;
-}
-#cv{
-color: #FFA566;
-background-color: #5FB25A;
-padding-top: 50px;
-padding-left: 40px;
-padding-bottom: 60px;
-}
-#lien3{
-  color: #E8AB0C;
-  background-color: #0DFFA8;
-}
-#image{  position: absolute;
-        margin-top:20px;
-        margin-left: 10px;
-        width:50px;
-        height:50px;
 
-      }
-/* Main content */
-ul, ul li {
-    list-style-type: disc;
-    margin: : 5em;
-    padding-left: 40px;
-}
-#tableau1{
-  width: 100%;
-}
-td{
-  width: 50%;
-  font-size: 20px;
-}
+.main-header
+    {
+          position: fixed;
+          height: 100px;
+          background-color: #333;
+    }
+
+
+.main-container
+    {
+          position: absolute;
+          height: auto;
+          top :100px;
+          overflow:auto;
+          bottom: 40px;
+
+          font-size: 22px;
+    }
+
+
+.main-footer
+    {
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          height: 40px;
+          text-align: center;
+          background-color: #333;
+          color: #f2f2f2;
+          padding: 10px 0px;
+
+          font-size: 20px;
+    }
+
+
+nav
+    {
+          height: 100px;
+          padding: 25px 0px 30px 100px;
+          font-size: 40px;
+    }
+
+
+nav a
+    {
+          color: #f2f2f2;
+          padding: 10px 10px;
+          text-decoration: none;
+    }
+
+
+nav a:hover
+    {
+          background: #ddd;
+          color: black;
+    }
+
+#titre-container
+    {
+          color: #3795B2;
+          background-color: #ED7F10;
+          padding:20px 0px;
+          text-align: center;
+          font-size: 50px;
+    }
+
+
+#index
+    {
+          color: #E8AB0C;
+          background-color: #0DFFA8;
+    }
+
+
+#index-form
+    {
+          padding: 50px 0px 100px 40px;
+    }
+
+
+#lien1
+    {
+          color: #E8AB0C;
+          background-color: #0DFFA8;
+    }
+
+
+#contact
+    {
+          color: #9001E8;
+          background-color: #E36EE8;
+    }
+
+
+#contact-form
+    {
+          padding: 50px 0px 80px 60px;
+    }
+
+
+#lien2
+    {
+          color: #9001E8;
+          background-color: #E36EE8;
+    }
+
+
+#cv
+    {
+          color: #B22477;
+          background-color: #5FB25A;
+    }
+
+
+#cv-form
+    {
+          padding:50px 0px 60px 40px;
+    }
+
+
+#cvform
+    {
+          width:50%
+    }
+
+
+#lien3
+    {
+          color: #E8AB0C;
+          background-color: #0DFFA8;
+    }
+
+
+#image
+    {
+          position: absolute;
+          margin-top:20px;
+          margin-left: 10px;
+          width:50px;
+          height:50px;
+    }
+
+
+#mise-form
+    {
+          width:500px;
+          background-color: #563;
+          padding: 10px;
+    }
+
+
+ul, ul li
+    {
+          list-style-type: disc;
+          margin: : 5em;
+          padding-left: 40px;
+    }
+
+
+#tableau1
+    {
+          width: 100%;
+    }
+
+
+td
+    {
+          width: 50%;
+          font-size: 20px;
+    }
