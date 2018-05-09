@@ -26,14 +26,6 @@ ul,li, a
           text-decoration: none;
     }
 
-
-.main, .main-header, .main-container, .main-footer
-    {
-          display: block;
-          width: 100%;
-    }
-
-
 .main
     {
           position:absolute;
@@ -47,7 +39,7 @@ ul,li, a
 .main-header
     {
           position: fixed;
-          height: 100px;
+          height: 200px;
           background-color: #333;
     }
 
@@ -140,7 +132,7 @@ nav a:hover
 
 #contact-form
     {
-          padding: 50px 0px 80px 60px;
+          padding: 50px 60px 80px 60px;
     }
 
 
@@ -189,11 +181,38 @@ nav a:hover
 
 #mise-form
     {
-          width:500px;
-          background-color: #563;
-          padding: 10px;
+          width:100%;
+          background-color: #B57541;
+          padding: 10px 25px;
+          Color:#FFB466;
+          border-radius: 25px;
+          box-shadow: 10px 10px #FFB466;
+    }
+textarea, button, input[type="text"]
+    {
+          padding: 10px 20px;
+          font-size: 22px;
+
+    }
+input[type="text"], textarea
+    {
+          color: #00FF24;
+          background-color: #633EB2;
+    }
+textarea
+    {
+          width: 100%;
+          border-radius: 5px 10px 15px 10px;
     }
 
+
+button
+    {
+          border-radius: 20px;
+          color: #B52EAE;
+          background-color: #EEFF00;
+
+    }
 
 ul, ul li
     {
@@ -213,4 +232,62 @@ td
     {
           width: 50%;
           font-size: 20px;
+    }
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+    {
+      .main, .main-header, .main-container, .main-footer
+          {
+                display: inline-block;
+                max-width: 600px;
+                width: 100%;
+          }
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px)
+    {
+      .main, .main-header, .main-container, .main-footer
+          {
+                display: inline-block;
+                min-width: 600px;
+                max-width: 768px;
+                width: 100%;
+          }
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px)
+    {
+      .main, .main-header, .main-container, .main-footer
+          {
+                display: block;
+                min-width: 768px;
+                max-width: 992px;
+                width: 100%;
+          }
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)and (max-width: 1200px)
+    {
+      .main, .main-header, .main-container, .main-footer
+          {
+                display: block;
+                min-width: 992px;
+                max-width: 1200px;
+                width: 100%;
+          }
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+    {
+      .main, .main-header, .main-container, .main-footer
+          {
+                display: block;
+                width: 100%;
+          }
     }
